@@ -134,8 +134,8 @@ class ASCII_GENERATOR():
 
     
 '''characters - first two work better the longer char set needs more testing and fine tuning'''
-#CHARS = '@#&%?"*+;:.'
-CHARS = '.:;+*"?%&#@'
+CHARS = '@#&%?"*+;:.'
+#CHARS = '.:;+*"?%&#@'
 #CHARS = '#£0L.'
 #CHARS = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'."
 #CHARS = CHARS[::-1]
