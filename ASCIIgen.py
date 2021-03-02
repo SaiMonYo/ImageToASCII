@@ -145,7 +145,8 @@ CHARS = '.:;+*"?%&#@'
 #need notepad++ to view 
 WIDTH = 1000
 
-gen = ASCII_GENERATOR("knight.jpg", CHARS, WIDTH)
+#Enter path of file in or name of file if it is in the same directory
+gen = ASCII_GENERATOR("knight.jpg", CHARS, WIDTH, cont = None, fileadd = '', showSteps = False)
 
 gen.main()
 
